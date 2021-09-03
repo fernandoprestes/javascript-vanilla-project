@@ -27,11 +27,12 @@ const giveaway = document.querySelector(".subtitle");
 const deadline = document.querySelector(".countdown");
 const items = document.querySelectorAll(".countdown-card h4");
 
+//today
 let tempDate = new Date();
 let tempYear = tempDate.getFullYear();
 let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
-//(year, month, day + 5 days in future, hours, minuts)
+//future (year, month, day + 5 days in future, hours, minuts)
 const futureDate = new Date(tempYear, tempMonth, tempDay + 2, 8, 1);
 
 const year = futureDate.getFullYear();
@@ -41,12 +42,11 @@ const minutes = futureDate.getMinutes();
 //month [0-11] and weekday [0-6]
 const month = months[futureDate.getMonth()];
 const weekday = weekdays[futureDate.getDay()];
-const date = futureDate.getDate();
-giveaway.textContent = `the ends on ${weekday}, ${date} ${month} ${year} ${hours}:${format(
+const day = futureDate.getDate();
+
+giveaway.textContent = `the ends on ${weekday}, ${day} ${month} ${year} ${hours}:${format(
   minutes
 )} am`;
-
-const futureTime = futureDate.getTime();
 
 function format(item) {
   if (item < 10) {
@@ -54,6 +54,8 @@ function format(item) {
   }
   return item;
 }
+
+const futureTime = futureDate.getTime();
 
 function getRemaindingTime() {
   const today = new Date().getTime();
