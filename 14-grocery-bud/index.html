@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Grocery Bud</title>
+  </head>
+  <body>
+    <main>
+      <section class="section">
+        <form class="grocery-form">
+          <p class="alert"></p>
+          <h2 class="title">Grocery BUD</h2>
+          <div class="form-controls">
+            <input
+              type="text"
+              class="grocery"
+              id="grocery"
+              placeholder="+ grocery item"
+            />
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </div>
+        </form>
+        <div class="grocery-container">
+          <div class="grocery-list">
+          </div>
+          <button class="btn clear-btn">Clear items</button>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
