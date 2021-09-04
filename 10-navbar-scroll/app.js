@@ -27,7 +27,7 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("fixed-nav");
   }
 
-  /** button  to top */
+  /** button to top on 500 height Y */
   if (scrollHeight > 500) {
     topLink.classList.add("show-link");
   } else {
@@ -36,7 +36,6 @@ window.addEventListener("scroll", function () {
 });
 
 /** smooth scroll */
-
 const scrollLinks = document.querySelectorAll(".scroll-link");
 scrollLinks.forEach((link) => {
   link.addEventListener("click", (event) => {

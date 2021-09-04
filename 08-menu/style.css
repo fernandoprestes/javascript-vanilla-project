@@ -67,7 +67,7 @@ img{
   color: #fff;
 }
 
-.section-center {
+.section {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -132,7 +132,7 @@ img{
 }
 
 @media screen and (min-width: 1200px) {
-  .section-center {
+  .section {
     width: 80vw;
     grid-template-columns: 1fr 1fr;
   }

@@ -71,7 +71,7 @@ main {
 }
 
 .nav-links .link:hover{
-  color: #22a
+  color: #161616
 }
 
 .sidebar{
@@ -80,7 +80,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #bdbde0;
+  background-color: #bdbdee;
   transition: all 0.3s linear;
   transform: translate(-100%);
 }

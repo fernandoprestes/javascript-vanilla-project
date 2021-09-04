@@ -31,6 +31,8 @@ main {
 .title{
   font-size: 2rem;
   color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
 }
 
 .switch-btn {

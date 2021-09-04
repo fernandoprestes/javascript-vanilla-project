@@ -6,11 +6,13 @@ function getRandomNumber() {
   return Math.floor(Math.random() * hex.length);
 }
 
-btn.addEventListener("click", () => {
+function handleClick() {
   let hexColor = "#";
   for (let i = 0; i < 6; i++) {
     hexColor += hex[getRandomNumber()];
   }
   color.textContent = hexColor;
   document.body.style.backgroundColor = hexColor;
-});
+}
+
+btn.addEventListener("click", handleClick);

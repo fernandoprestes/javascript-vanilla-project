@@ -1,7 +1,7 @@
 const btnMenu = document.querySelector(".nav-toggle");
+const nav = document.querySelector('.nav-menu')
 
 btnMenu.addEventListener("click",  (event) => {
   event.preventDefault();
-  const nav = document.querySelector('.nav-menu')
   nav.classList.toggle('active')
 })

@@ -63,7 +63,7 @@ main {
   font-size: 0.85rem;
 }
 
-.button {
+.btn {
   color: #222;
   background: transparent;
   border: 1px solid #222;
@@ -73,11 +73,11 @@ main {
   cursor: pointer;
 }
 
-.button.-random::before {
+.btn-random::before {
   display: none;
 }
 
-.button::before {
+.bnt::before {
   content: '';
   display: block;
   box-sizing: border-box;
@@ -87,10 +87,10 @@ main {
   border-left: 24px solid #222;
 }
 
-.button.-left::before {
+.bnt-left::before {
   transform: rotate(180deg) translateX(10px);
 }
 
-.button.-right::before {
+.bnt-right::before {
   transform: translateX(8px);
 }

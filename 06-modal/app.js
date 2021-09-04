@@ -1,7 +1,7 @@
 
 const openBtn = document.querySelector(".open-btn");
-const modal = document.querySelector(".modal-overlay");
 const closeBtn = document.querySelector(".close-btn");
+const modal = document.querySelector(".modal-overlay");
 
 openBtn.addEventListener("click", () => {
   modal.classList.add("open-modal");

@@ -81,7 +81,7 @@ const menu = [
   },
 ];
 
-const sectionCenter = document.querySelector(".section-center");
+const section = document.querySelector(".section");
 const btnContainer = document.querySelector(".btn-container");
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -107,7 +107,7 @@ function diplayMenuItems(menuItems) {
       </article>`;
   });
   displayMenu = displayMenu.join("");
-  sectionCenter.innerHTML = displayMenu;
+  section.innerHTML = displayMenu;
 }
 
 function displayMenuButtons() {
