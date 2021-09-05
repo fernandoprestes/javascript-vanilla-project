@@ -111,6 +111,13 @@ const projects = [
     img: "./16-cep-api/screenshot.png",
     alt: "image project",
   },
+  {
+    id: "#17",
+    title: "Random Jokes",
+    src: "./17-chuck-norris-jokes/index.html",
+    img: "./17-chuck-norris-jokes/screenshot.png",
+    alt: "image project",
+  },
 ];
 
 const section = document.querySelector(".section");
