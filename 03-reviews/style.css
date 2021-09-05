@@ -77,7 +77,8 @@ main {
   display: none;
 }
 
-.bnt::before {
+.btn-left::before,
+.btn-right::before {
   content: '';
   display: block;
   box-sizing: border-box;
@@ -87,10 +88,10 @@ main {
   border-left: 24px solid #222;
 }
 
-.bnt-left::before {
+.btn-left::before {
   transform: rotate(180deg) translateX(10px);
 }
 
-.bnt-right::before {
+.btn-right::before {
   transform: translateX(8px);
 }

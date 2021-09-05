@@ -33,7 +33,7 @@ let tempYear = tempDate.getFullYear();
 let tempMonth = tempDate.getMonth();
 let tempDay = tempDate.getDate();
 //future (year, month, day + 5 days in future, hours, minuts)
-const futureDate = new Date(tempYear, tempMonth, tempDay + 2, 8, 1);
+const futureDate = new Date(tempYear, tempMonth, tempDay + 7, 10, 1);
 
 const year = futureDate.getFullYear();
 const hours = futureDate.getHours();

@@ -15,7 +15,7 @@ body {
 main {
   width: min(90vw, 1274px);
   height: calc(100vh - 77px);
-  margin: 10% auto 0;
+  margin: 0 auto;
 }
 
 .title {
