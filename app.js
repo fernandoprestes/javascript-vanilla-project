@@ -104,6 +104,13 @@ const projects = [
     img: "./15-sliders/screenshot.png",
     alt: "image project",
   },
+  {
+    id: "#16",
+    title: "CEP API Brazil",
+    src: "./16-cep-api/index.html",
+    img: "./16-cep-api/screenshot.png",
+    alt: "image project",
+  },
 ];
 
 const section = document.querySelector(".section");
