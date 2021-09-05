@@ -118,6 +118,13 @@ const projects = [
     img: "./17-chuck-norris-jokes/screenshot.png",
     alt: "image project",
   },
+  {
+    id: "#18",
+    title: "Create button",
+    src: "./18-create-button/index.html",
+    img: "./18-create-button/screenshot.png",
+    alt: "image project",
+  },
 ];
 
 const section = document.querySelector(".section");
