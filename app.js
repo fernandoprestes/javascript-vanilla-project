@@ -125,6 +125,13 @@ const projects = [
     img: "./18-create-button/screenshot.png",
     alt: "image project",
   },
+  {
+    id: "#19",
+    title: "Random Person API",
+    src: "./19-random-person/index.html",
+    img: "./19-random-person/screenshot.png",
+    alt: "image project",
+  },
 ];
 
 const section = document.querySelector(".section");
