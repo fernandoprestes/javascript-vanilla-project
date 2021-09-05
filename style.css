@@ -16,7 +16,8 @@ main {
   margin: 0 auto;
   display: grid;
   place-items: center;
-  align-content: center
+  align-content: center;
+  justify-content: center;
 }
 
 .header{
@@ -26,13 +27,19 @@ main {
 
 @media screen and (min-width: 849px) {
   main {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 360px);
   }
 }
 
-@media screen and (min-width: 1297px) {
+@media screen and (min-width: 1167px) {
   main {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 360px);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  main {
+    grid-template-columns: repeat(4, 360px);
   }
 }
 
